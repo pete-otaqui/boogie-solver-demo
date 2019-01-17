@@ -1,0 +1,26 @@
+{
+  "name": "boogie-solver-demo",
+  "version": "1.0.0",
+  "description": "Demonstration of the boogie-solver package",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pete-otaqui/boogie-solver-demo.git"
+  },
+  "main": "build/index.js",
+  "scripts": {
+    "build": "tsc",
+    "demo": "node build/index.js",
+    "demo:typescript": "ts-node src/index.ts"
+  },
+  "keywords": [],
+  "author": "Pete Otaqui <pete@otaqui.com>",
+  "license": "ISC",
+  "dependencies": {
+    "boogie-solver": "^2.1.1"
+  },
+  "devDependencies": {
+    "@types/node": "^10.12.18",
+    "ts-node": "^7.0.1",
+    "typescript": "^3.2.2"
+  }
+}
